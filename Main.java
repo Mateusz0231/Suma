@@ -1,13 +1,17 @@
-import java.util.Scanner;
+
 class ScanLocal {
   public static void main(String[] args) 
   {
-    Scanner scanner = new Scanner(System.in);
+    int a;
+    int b;
+    int suma;
     System.out.println("Podaj liczbę");
-    int a = scanner.nextInt();
+    Scanner skana = new Scanner(System.in);
+     a = skana.nextInt();
      System.out.println("Podaj liczbę");
-    int b = scanner.nextInt();
-    int suma = a + b;
+    Scanner skanb = new Scanner(System.in);
+     b = skanb.nextInt();
+     suma = a + b;
     System.out.println("Suma liczb to" + suma);
   }
 }
